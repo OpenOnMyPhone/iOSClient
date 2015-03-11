@@ -14,6 +14,17 @@
 		5B54753F1AAD4EE8006F3734 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B54753E1AAD4EE8006F3734 /* Images.xcassets */; };
 		5B5475421AAD4EE8006F3734 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B5475401AAD4EE8006F3734 /* LaunchScreen.xib */; };
 		5B54754E1AAD4EE8006F3734 /* OpenOnMyPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B54754D1AAD4EE8006F3734 /* OpenOnMyPhoneTests.m */; };
+		5B54755A1AB078DC006F3734 /* libPushSDK-1.8.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5475591AB078DC006F3734 /* libPushSDK-1.8.2.a */; };
+		5B54755C1AB07917006F3734 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B54755B1AB07917006F3734 /* CFNetwork.framework */; };
+		5B54755E1AB0791F006F3734 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B54755D1AB0791F006F3734 /* CoreFoundation.framework */; };
+		5B5475601AB07926006F3734 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B54755F1AB07926006F3734 /* CoreTelephony.framework */; };
+		5B5475621AB0792F006F3734 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5475611AB0792F006F3734 /* SystemConfiguration.framework */; };
+		5B5475641AB07938006F3734 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5475631AB07938006F3734 /* CoreGraphics.framework */; };
+		5B5475661AB07940006F3734 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5475651AB07940006F3734 /* Foundation.framework */; };
+		5B5475681AB07946006F3734 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5475671AB07946006F3734 /* UIKit.framework */; };
+		5B54756A1AB0794C006F3734 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5475691AB0794C006F3734 /* Security.framework */; };
+		5B54756C1AB07955006F3734 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B54756B1AB07955006F3734 /* libz.dylib */; };
+		5B54756E1AB07BA1006F3734 /* PushConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B54756D1AB07BA1006F3734 /* PushConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,18 @@
 		5B5475471AAD4EE8006F3734 /* OpenOnMyPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenOnMyPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B54754C1AAD4EE8006F3734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B54754D1AAD4EE8006F3734 /* OpenOnMyPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenOnMyPhoneTests.m; sourceTree = "<group>"; };
+		5B5475581AB078DC006F3734 /* APService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APService.h; sourceTree = "<group>"; };
+		5B5475591AB078DC006F3734 /* libPushSDK-1.8.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPushSDK-1.8.2.a"; sourceTree = "<group>"; };
+		5B54755B1AB07917006F3734 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5B54755D1AB0791F006F3734 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5B54755F1AB07926006F3734 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5B5475611AB0792F006F3734 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5B5475631AB07938006F3734 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B5475651AB07940006F3734 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B5475671AB07946006F3734 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B5475691AB0794C006F3734 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5B54756B1AB07955006F3734 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5B54756D1AB07BA1006F3734 /* PushConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PushConfig.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B54756C1AB07955006F3734 /* libz.dylib in Frameworks */,
+				5B54756A1AB0794C006F3734 /* Security.framework in Frameworks */,
+				5B5475681AB07946006F3734 /* UIKit.framework in Frameworks */,
+				5B5475661AB07940006F3734 /* Foundation.framework in Frameworks */,
+				5B5475641AB07938006F3734 /* CoreGraphics.framework in Frameworks */,
+				5B5475621AB0792F006F3734 /* SystemConfiguration.framework in Frameworks */,
+				5B5475601AB07926006F3734 /* CoreTelephony.framework in Frameworks */,
+				5B54755E1AB0791F006F3734 /* CoreFoundation.framework in Frameworks */,
+				5B54755C1AB07917006F3734 /* CFNetwork.framework in Frameworks */,
+				5B54755A1AB078DC006F3734 /* libPushSDK-1.8.2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,16 @@
 		5B5475251AAD4EE7006F3734 = {
 			isa = PBXGroup;
 			children = (
+				5B54756B1AB07955006F3734 /* libz.dylib */,
+				5B5475691AB0794C006F3734 /* Security.framework */,
+				5B5475671AB07946006F3734 /* UIKit.framework */,
+				5B5475651AB07940006F3734 /* Foundation.framework */,
+				5B5475631AB07938006F3734 /* CoreGraphics.framework */,
+				5B5475611AB0792F006F3734 /* SystemConfiguration.framework */,
+				5B54755F1AB07926006F3734 /* CoreTelephony.framework */,
+				5B54755D1AB0791F006F3734 /* CoreFoundation.framework */,
+				5B54755B1AB07917006F3734 /* CFNetwork.framework */,
+				5B5475571AB078DC006F3734 /* lib */,
 				5B5475301AAD4EE8006F3734 /* OpenOnMyPhone */,
 				5B54754A1AAD4EE8006F3734 /* OpenOnMyPhoneTests */,
 				5B54752F1AAD4EE8006F3734 /* Products */,
@@ -98,6 +141,7 @@
 			children = (
 				5B5475321AAD4EE8006F3734 /* Info.plist */,
 				5B5475331AAD4EE8006F3734 /* main.m */,
+				5B54756D1AB07BA1006F3734 /* PushConfig.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +161,15 @@
 				5B54754C1AAD4EE8006F3734 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B5475571AB078DC006F3734 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				5B5475581AB078DC006F3734 /* APService.h */,
+				5B5475591AB078DC006F3734 /* libPushSDK-1.8.2.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +221,12 @@
 				TargetAttributes = {
 					5B54752D1AAD4EE8006F3734 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 3722SK7LNJ;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					5B5475461AAD4EE8006F3734 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -199,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B54756E1AB07BA1006F3734 /* PushConfig.plist in Resources */,
 				5B54753D1AAD4EE8006F3734 /* Main.storyboard in Resources */,
 				5B5475421AAD4EE8006F3734 /* LaunchScreen.xib in Resources */,
 				5B54753F1AAD4EE8006F3734 /* Images.xcassets in Resources */,
@@ -343,8 +403,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpenOnMyPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -353,8 +419,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpenOnMyPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
