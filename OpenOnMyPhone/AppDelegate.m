@@ -65,7 +65,9 @@
     // Required
     [APService handleRemoteNotification:userInfo];
     
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:content]];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:content]];
+    });
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
@@ -82,7 +84,9 @@
     [APService handleRemoteNotification:userInfo];
     completionHandler(UIBackgroundFetchResultNewData);
     
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:content]];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:content]];
+    });
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
