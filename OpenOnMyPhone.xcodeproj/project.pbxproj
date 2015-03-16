@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1714CE1AB6A996002D4DD3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1714CD1AB6A996002D4DD3 /* AVFoundation.framework */; };
 		5B5475341AAD4EE8006F3734 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5475331AAD4EE8006F3734 /* main.m */; };
 		5B5475371AAD4EE8006F3734 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5475361AAD4EE8006F3734 /* AppDelegate.m */; };
 		5B54753A1AAD4EE8006F3734 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5475391AAD4EE8006F3734 /* ViewController.m */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B1714CD1AB6A996002D4DD3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5B54752E1AAD4EE8006F3734 /* OpenOnMyPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenOnMyPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5475321AAD4EE8006F3734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B5475331AAD4EE8006F3734 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1714CE1AB6A996002D4DD3 /* AVFoundation.framework in Frameworks */,
 				5B54756C1AB07955006F3734 /* libz.dylib in Frameworks */,
 				5B54756A1AB0794C006F3734 /* Security.framework in Frameworks */,
 				5B5475681AB07946006F3734 /* UIKit.framework in Frameworks */,
@@ -96,6 +99,7 @@
 		5B5475251AAD4EE7006F3734 = {
 			isa = PBXGroup;
 			children = (
+				5B1714CD1AB6A996002D4DD3 /* AVFoundation.framework */,
 				5B54756B1AB07955006F3734 /* libz.dylib */,
 				5B5475691AB0794C006F3734 /* Security.framework */,
 				5B5475671AB07946006F3734 /* UIKit.framework */,
@@ -484,6 +488,7 @@
 				5B5475531AAD4EE8006F3734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B5475541AAD4EE8006F3734 /* Build configuration list for PBXNativeTarget "OpenOnMyPhoneTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				5B5475561AAD4EE8006F3734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

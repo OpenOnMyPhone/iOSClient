@@ -45,6 +45,7 @@
 #endif
     // Required
     [APService setupWithOption:launchOptions];
+    NSLog(@"%@", launchOptions);
     
     return YES;
 }

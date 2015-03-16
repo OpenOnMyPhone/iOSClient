@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 #import "APService.h"
 
-@interface ViewController : UIViewController <UITextFieldDelegate>
+@interface ViewController : UIViewController <UITextFieldDelegate, AVCaptureMetadataOutputObjectsDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *code;
 - (IBAction)didClickSetButton:(id)sender;
+- (IBAction)didClickQRScanButton:(id)sender;
 
 @end
 
